@@ -2,6 +2,11 @@
   <img src="./assets/sawtooth-works-banner.png" width="100%" alt="Sawtooth Works, open source organization. Open by default, brutalist frontend, built without frills.">
 </p>
 
+<p align="center">
+  <a href="https://discord.gg/W6sKEvXvtv"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Sawtooth Works community on Discord"></a>
+  <a href="#use-of-ai"><img src="https://img.shields.io/badge/AI-Docs%20only-111111?style=for-the-badge" alt="AI is used only for documentation, never for source code"></a>
+</p>
+
 > [!WARNING]
 > **Fabriqueta de Software is becoming Sawtooth Works.**
 > If a repository, link, clone, CI run or install stopped working, the rename is the most likely cause.
@@ -18,12 +23,23 @@ We build back-ends and libraries in the open, and every frontend we ship follows
 | **01** | **Open by default** | Code lives in public, free to use, study and improve. |
 | **02** | **Brutalist frontend** | Structure you can see. No gradients, no glass, no ornament. |
 | **03** | **Built without frills** | Every feature has to earn its place. |
+| **04** | **AI for docs, not code** | Documentation may be AI-assisted. Source code is not. |
 
 ## Use of AI
 
-> [!NOTE]
-> **We use AI only for documentation.**
-> READMEs, guides and other docs may be written with AI assistance. Source code is not.
+> [!IMPORTANT]
+> **We use AI only for documentation. Source code is not written with AI.**
+
+| What | AI assistance |
+|:--|:--|
+| READMEs, guides and other docs | **Yes**, may be written with AI assistance |
+| Source code | **No** |
+
+## Community
+
+> [!TIP]
+> **Join us on [Discord](https://discord.gg/W6sKEvXvtv).**
+> Questions, ideas, feedback and help with the rename: that is where the conversation happens.
 
 ## On the workshop floor
 
@@ -66,11 +82,7 @@ git remote set-url origin git@github.com:sawtooth-works/<repository>.git
 git grep -in "FabriquetaDeSoftware"
 ```
 
-Still broken? Open an issue in the affected repository and mention the rename.
-
-## Community
-
-Questions, ideas and feedback are welcome on our [**Discord**](https://discord.gg/W6sKEvXvtv).
+Still broken? Open an issue in the affected repository and mention the rename, or ask on [Discord](https://discord.gg/W6sKEvXvtv).
 
 ## Contributing
 
