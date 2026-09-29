@@ -30,7 +30,6 @@ We build back-ends and libraries in the open, and every frontend we ship follows
 | Repository | What it is | Stack |
 |:--|:--|:--|
 | [**saas-and-ecommerce-boilerplate-nestjs**](https://github.com/sawtooth-works/saas-and-ecommerce-boilerplate-nestjs) | Modular starting point for SaaS and e-commerce back-ends: authentication, RBAC/ABAC, product catalog, Stripe checkout and observability. | NestJS · Prisma · PostgreSQL |
-| [**brasil-cities**](https://github.com/sawtooth-works/brasil-cities) | JavaScript library for Brazilian states, cities and IBGE codes. | JavaScript · npm |
 
 ## Something broke?
 
@@ -45,7 +44,6 @@ GitHub redirects most things automatically, but not everything:
 | API calls using the old organization name | **404** | Replace `FabriquetaDeSoftware` with `sawtooth-works`. |
 | Team mentions like `@FabriquetaDeSoftware/team` | **Not redirected** | Use `@sawtooth-works/team`. |
 | CI configs, badges, submodules, package manifests or scripts with the old name hard-coded | **May break** | Search and replace the old name (see below). |
-| The `brasil-cities` package on npm | **Not affected** | Nothing. `npm install brasil-cities` still works. |
 
 > [!IMPORTANT]
 > The redirects only last while nobody else claims the old name. Update your references now rather than relying on them.
@@ -69,6 +67,10 @@ git grep -in "FabriquetaDeSoftware"
 ```
 
 Still broken? Open an issue in the affected repository and mention the rename.
+
+## Community
+
+Questions, ideas and feedback are welcome on our [**Discord**](https://discord.gg/W6sKEvXvtv).
 
 ## Contributing
 
