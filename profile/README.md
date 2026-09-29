@@ -11,7 +11,7 @@
 
 Open source software built like a factory floor: raw structure, visible joints, nothing added for decoration.
 
-We build back-ends, libraries and apps in the open, and every frontend we ship follows the same **brutalist** standard: thick borders, hard shadows, flat color and layouts that show how they are built.
+We build back-ends and libraries in the open, and every frontend we ship follows the same **brutalist** standard: thick borders, hard shadows, flat color and layouts that show how they are built.
 
 | # | Principle | In practice |
 |:--|:--|:--|
@@ -19,13 +19,18 @@ We build back-ends, libraries and apps in the open, and every frontend we ship f
 | **02** | **Brutalist frontend** | Structure you can see. No gradients, no glass, no ornament. |
 | **03** | **Built without frills** | Every feature has to earn its place. |
 
+## Use of AI
+
+> [!NOTE]
+> **We use AI only for documentation.**
+> READMEs, guides and other docs may be written with AI assistance. Source code is not.
+
 ## On the workshop floor
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
 | [**saas-and-ecommerce-boilerplate-nestjs**](https://github.com/sawtooth-works/saas-and-ecommerce-boilerplate-nestjs) | Modular starting point for SaaS and e-commerce back-ends: authentication, RBAC/ABAC, product catalog, Stripe checkout and observability. | NestJS · Prisma · PostgreSQL |
 | [**brasil-cities**](https://github.com/sawtooth-works/brasil-cities) | JavaScript library for Brazilian states, cities and IBGE codes. | JavaScript · npm |
-| [**mobile-personal-life-offline**](https://github.com/sawtooth-works/mobile-personal-life-offline) | Offline-first mobile app for organizing personal life. | Expo · React Native · SQLite |
 
 ## Something broke?
 
